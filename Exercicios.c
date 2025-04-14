@@ -2,14 +2,12 @@
 
 int main(){
 
-    int a = 10; 
+    int a = -10; 
 
-    if ( !a ) { //(!(a > 0)
-        printf(" a é zero. \n");
-        // printf(" a não é um número positivo\n");
+    if ( !( a > 0 )) { //(!(a > 0)
+        printf("A variável é negativa\n");
 
     }else {
-
-        printf("A Variavel é diferente de zero.");
+        printf("A Variavel é positiva.");
     }
 } 
