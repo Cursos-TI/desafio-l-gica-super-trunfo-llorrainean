@@ -1,12 +1,17 @@
 #include <stdio.h>
 
 int main(){
-    printf("Digite um valor");
+
+    int variavel;
+
+    printf("Digite um valor\n");
     scanf("%d", &variavel);
 
     switch (variavel) {
     case 1:
         printf("Código a ser executado se variavel == valor 1\n");
+        printf("Teste do case 1");1
+
     break;
     case 2:
         printf("Codigo a ser executado se valor varivel == valor 2\n");
