@@ -2,7 +2,7 @@
 
 int main () {
     int opcao;
-    float saldo = 1000;
+    float saldo = 1000.00;
 
     printf("Escolha uma opção:\n");
     printf("1. Verificar saldo:\n");
